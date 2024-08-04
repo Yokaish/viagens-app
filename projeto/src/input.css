@@ -11,12 +11,3 @@
 .montserrat {
     font-family: var(--font);
 }
-
-.bg-input-login {
-    background-color: #00466A;
-    opacity: 0.1;
-}
-
-.btn-blue {
-    background-color: #00466A;
-}
