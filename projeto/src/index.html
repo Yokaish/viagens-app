@@ -10,13 +10,26 @@
     <div class="bg-red-950 hidden">
         <p>canto</p>
     </div>
-    <div class="bg-orange-600 w-full flex flex-col">
+    <div class="bg-white w-full flex flex-col justify-center montserrat">
         <img class="my-10 mx-10" src="../img/logo.png" alt="">
         <form class="mx-10" action="" method="post">
             <fieldset>
                 <div class="flex flex-col gap-10">
-                    <input class="p-4" type="email" name="" id="">
-                    <input class="p-4" type="password" name="" id="">
+                    <div class="flex flex-col">
+                        <label for="email-input">E-mail</label>
+                        <input class="p-3 rounded-xl bg-input-login border-none" type="email" name="" id="email-input" placeholder="Insira o e-mail">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email-input">Senha</label>
+                        <input class="p-3 rounded-xl bg-input-login border-none" type="password" name="" id="password-input" placeholder="Insira a senha">
+                        <div class="my-2">
+                            <input class="rounded-xl" type="checkbox" name="" id="password-checkbox">
+                            <label for="password-checkbox">Esqueci a senha</label>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="p-3 w-full rounded-xl bg-customBlue text-white" type="submit">ENTRAR</button>
+                    </div>
                 </div>
             </fieldset>
        </form>
